@@ -14,7 +14,7 @@ import {
 } from './styles';
 import logo from '../../assets/logo-white.png';
 
-export default function Header() {
+export default function NavBar() {
   return (
     <Container>
       <div className="left">

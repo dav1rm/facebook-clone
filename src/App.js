@@ -1,12 +1,12 @@
 import React from 'react';
 import GlobalStyles from './styles/global';
 import Main from './pages/Main';
-import Header from './components/Header';
+import NavBar from './components/NavBar';
 
 function App() {
   return (
     <>
-      <Header />
+      <NavBar />
       <Main />
       <GlobalStyles />
     </>
