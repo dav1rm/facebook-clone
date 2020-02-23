@@ -8,7 +8,11 @@ export const Container = styled.div`
   height: 100%;
   margin-top: 54px;
 
-  @media (max-width: 1100px) {
+  @media (max-width: 1125px) {
+    padding: 0 2%;
+  }
+
+  @media (max-width: 1050px) {
     padding: 0;
   }
 
@@ -16,5 +20,9 @@ export const Container = styled.div`
     margin-right: 12px;
     margin-left: 192px;
     flex: 1;
+
+    @media (max-width: 768px) {
+      margin: 0;
+    }
   }
 `;

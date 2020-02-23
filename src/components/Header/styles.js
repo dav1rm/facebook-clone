@@ -51,7 +51,11 @@ export const Container = styled.header`
   background-color: #4267b2;
   border-bottom: 2px solid #3b5998;
 
-  @media (max-width: 1100px) {
+  @media (max-width: 1125px) {
+    padding: 0 2%;
+  }
+
+  @media (max-width: 1050px) {
     padding: 0;
   }
 
@@ -138,6 +142,9 @@ export const NavMenu = styled.nav`
         padding: 0 10px;
         font-weight: bold;
         text-decoration: none;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
 
         img {
           margin-right: 5px;

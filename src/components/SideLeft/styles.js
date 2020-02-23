@@ -5,8 +5,16 @@ export const Container = styled.aside`
   position: fixed;
   left: 12%;
 
-  @media (max-width: 1100px) {
+  @media (max-width: 1125px) {
+    left: 2%;
+  }
+
+  @media (max-width: 1050px) {
     left: 0;
+  }
+
+  @media (max-width: 768px) {
+    display: none;
   }
 
   h4 {

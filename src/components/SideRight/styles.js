@@ -3,11 +3,11 @@ import styled from 'styled-components';
 export const Container = styled.aside`
   width: 296px;
 
-  @media (max-width: 1000px) {
+  @media (max-width: 1050px) {
     width: 196px;
   }
 
-  @media (max-width: 800px) {
+  @media (max-width: 900px) {
     display: none;
   }
 `;
