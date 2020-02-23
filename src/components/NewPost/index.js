@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { Container } from './styles';
+import { Container, IconMore } from './styles';
 
 export default function NewPost() {
   return (
@@ -21,21 +21,24 @@ export default function NewPost() {
             src="https://www.generationsforpeace.org/wp-content/uploads/2018/03/empty.jpg"
             alt="Foto"
           />
-          Foto/Video
+          <span> Foto/Video</span>
         </button>
         <button>
           <img
             src="https://www.generationsforpeace.org/wp-content/uploads/2018/03/empty.jpg"
             alt="Marcar"
           />
-          Marcar amigos
+          <span>Marcar amigos</span>
         </button>
         <button>
           <img
             src="https://www.generationsforpeace.org/wp-content/uploads/2018/03/empty.jpg"
             alt="Sentimento"
           />
-          Sentimento/atividade
+          <span>Sentimento/atividade</span>
+        </button>
+        <button>
+          <IconMore />
         </button>
       </div>
     </Container>

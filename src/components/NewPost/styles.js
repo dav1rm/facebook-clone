@@ -1,4 +1,10 @@
 import styled from 'styled-components';
+import { MdMoreHoriz } from 'react-icons/md';
+
+export const IconMore = styled(MdMoreHoriz)`
+  font-size: 22px;
+  color: #616770;
+`;
 
 export const Container = styled.div`
   display: flex;
@@ -65,12 +71,27 @@ export const Container = styled.div`
 
       &:last-child {
         margin-right: 0;
+
+        img {
+          margin-right: 0;
+        }
+      }
+
+      span {
+        max-width: 100px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
       }
 
       img {
         width: 15px;
         height: 15px;
         margin-right: 5px;
+      }
+
+      &:hover {
+        background-color: #ebedf0;
       }
     }
   }
