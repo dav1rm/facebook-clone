@@ -2,7 +2,7 @@
 
 This project was developed using hmtl, css, reactjs, and styled components. Is the clone of facebook interface.
 
-Obs: The project can be accessed locally or through the link: [Acessar](https://davir8.github.io/facebook-clone/)
+Obs: You can access it locally or through the link: https://davir8.github.io/facebook-clone/
 
 ![](src/assets/presentation.gif)
 
