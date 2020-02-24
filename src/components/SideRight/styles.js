@@ -32,6 +32,7 @@ export const Card = styled.div`
   }
 
   span:hover {
+    cursor: pointer;
     background-color: #f5f6f7;
   }
 

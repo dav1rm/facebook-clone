@@ -15,6 +15,7 @@ font-size: 20px;
 margin: 0 10px;
 
 &:hover {
+  cursor: pointer;
   border-radius: 2px;
   color: rgba(0, 0, 0, 0.9);
 }

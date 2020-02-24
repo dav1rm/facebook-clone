@@ -77,7 +77,7 @@ export default function Footer() {
           }
           return null;
         })}
-        <span>{total},4 mil </span>
+        <span>{total} mil </span>
       </>
     );
   };
