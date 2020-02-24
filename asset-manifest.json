@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.js": "/facebook-clone/static/js/main.dae61b13.chunk.js",
+    "main.js.map": "/facebook-clone/static/js/main.dae61b13.chunk.js.map",
+    "runtime-main.js": "/facebook-clone/static/js/runtime-main.1f78cad9.js",
+    "runtime-main.js.map": "/facebook-clone/static/js/runtime-main.1f78cad9.js.map",
+    "static/js/2.5af842a4.chunk.js": "/facebook-clone/static/js/2.5af842a4.chunk.js",
+    "static/js/2.5af842a4.chunk.js.map": "/facebook-clone/static/js/2.5af842a4.chunk.js.map",
+    "index.html": "/facebook-clone/index.html",
+    "precache-manifest.dd7e5ac9e0cf1ca06c0d841cdad8a1b6.js": "/facebook-clone/precache-manifest.dd7e5ac9e0cf1ca06c0d841cdad8a1b6.js",
+    "service-worker.js": "/facebook-clone/service-worker.js",
+    "static/js/2.5af842a4.chunk.js.LICENSE.txt": "/facebook-clone/static/js/2.5af842a4.chunk.js.LICENSE.txt",
+    "static/media/comment.svg": "/facebook-clone/static/media/comment.6acc1133.svg",
+    "static/media/grr.gif": "/facebook-clone/static/media/grr.0264e1f3.gif",
+    "static/media/grr_static.png": "/facebook-clone/static/media/grr_static.239d3d02.png",
+    "static/media/haha.gif": "/facebook-clone/static/media/haha.d8d20cac.gif",
+    "static/media/haha_static.png": "/facebook-clone/static/media/haha_static.66f1d9e1.png",
+    "static/media/like.gif": "/facebook-clone/static/media/like.7f96bd93.gif",
+    "static/media/like.svg": "/facebook-clone/static/media/like.ba3f8977.svg",
+    "static/media/like_static.png": "/facebook-clone/static/media/like_static.4b916ec1.png",
+    "static/media/love.gif": "/facebook-clone/static/media/love.9e1dd43a.gif",
+    "static/media/love_static.png": "/facebook-clone/static/media/love_static.47115a63.png",
+    "static/media/sad.gif": "/facebook-clone/static/media/sad.a345b96e.gif",
+    "static/media/sad_static.png": "/facebook-clone/static/media/sad_static.7537d1ed.png",
+    "static/media/share.svg": "/facebook-clone/static/media/share.d21ee901.svg",
+    "static/media/uau.gif": "/facebook-clone/static/media/uau.6ff3e22d.gif",
+    "static/media/uau_static.png": "/facebook-clone/static/media/uau_static.530a103e.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1f78cad9.js",
+    "static/js/2.5af842a4.chunk.js",
+    "static/js/main.dae61b13.chunk.js"
+  ]
+}
