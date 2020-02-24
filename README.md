@@ -4,7 +4,7 @@ This project was developed using hmtl, css, reactjs, and styled components. Is t
 
 ![](src/assets/presentation.gif)
 
-# Obs: The project can be accessed locally or through the link: https://davir8.github.io/facebook-clone/
+Obs: The project can be accessed locally or through the link: <a href="https://davir8.github.io/facebook-clone/" target="_blank">https://davir8.github.io/facebook-clone/</a>
 
 ## Prerequisites
 
