@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import _ from 'lodash';
 
 import { Container } from './styles';
@@ -13,39 +13,20 @@ import like from '../../../../assets/like_static.png';
 
 export default function Footer() {
   const [reactions, setReactions] = useState([]);
-  const [showReactions, setShowReactions] = useState({
-    val: false,
-    time: Date.now(),
-  });
+  const [showReactions, setShowReactions] = useState(false);
 
-  const handleHover = _.debounce(() => {
-    const now = Date.now();
-    const seconds = (now - showReactions.time) / 1000;
+  const handleMouseEnter = () => setShowReactions(true);
 
-    setShowReactions(prevState => {
-      if (prevState.val === true && seconds < 5) {
-        return { ...showReactions, val: true };
-      }
-
-      return { time: Date.now(), val: false };
-    });
-  }, 1000);
-
-  const handleHoverIn = () => {
-    setShowReactions({ ...showReactions, val: true });
-    console.log('entrou:', showReactions);
-  };
+  const handleMouseLeave = () => setShowReactions(false);
 
   return (
     <>
+      {showReactions && (
+        <div onMouseLeave={handleMouseLeave} onMouseEnter={handleMouseEnter}>
+          <Reactions show={showReactions} />
+        </div>
+      )}
       <Container>
-        {showReactions.val && (
-          <Reactions
-            show={showReactions}
-            onMouseLeave={handleHover}
-            onMouseEnter={handleHoverIn}
-          />
-        )}
         <div className="post-info">
           <div>
             <img src={like} alt="love" />
@@ -58,8 +39,12 @@ export default function Footer() {
             <span>123 compartilhamentos</span>
           </div>
         </div>
+
         <div className="action-buttons">
-          <button onMouseEnter={handleHoverIn} onMouseLeave={handleHover}>
+          <button
+            onMouseLeave={handleMouseLeave}
+            onMouseEnter={handleMouseEnter}
+          >
             <img id="like" src={like_filled} />
             <span>Curtir</span>
           </button>

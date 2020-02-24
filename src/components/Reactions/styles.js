@@ -5,10 +5,10 @@ export const Container = styled.div`
   width: 300px;
   z-index: 1;
   position: absolute;
-  bottom: 30px;
+  bottom: 35px;
   background-color: #fff;
   border-radius: 30px;
-  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 2px 5px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.08), 0 2px 2px rgba(0, 0, 0, 0.15);
 
   .react {
     display: flex;
