@@ -1,14 +1,4 @@
 import styled from 'styled-components';
-import { MdMoreHoriz } from 'react-icons/md';
-
-export const IconMore = styled(MdMoreHoriz)`
-  font-size: 22px;
-  color: #616770;
-
-  &:hover {
-    cursor: pointer;
-  }
-`;
 
 export const Container = styled.article`
   display: flex;
@@ -22,10 +12,21 @@ export const Container = styled.article`
 
   .post-content {
     display: flex;
+    flex-direction: column;
+    background-size: cover;
 
     p {
       font-size: 14px;
-      padding: 12px;
+      padding: 0 12px;
     }
   }
+`;
+
+export const ImageContent = styled.div`
+  width: auto;
+  margin-top: 10px;
+  min-height: 300px;
+  background-size: cover;
+  background: ${props =>
+    props.image ? `url('${props.image}') center top no-repeat` : '#fff'};
 `;

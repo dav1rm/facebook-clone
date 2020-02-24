@@ -58,6 +58,22 @@ export const Container = styled.footer`
         font-weight: bold;
       }
 
+      span#like {
+        color: rgb(32, 120, 244);
+      }
+      span#love {
+        color: rgb(243, 62, 88);
+      }
+      span#haha,
+      #uau,
+      #sad {
+        color: rgb(247, 177, 37);
+      }
+
+      span#grr {
+        color: rgb(233, 113, 15);
+      }
+
       &:hover {
         background-color: rgba(0, 0, 0, 0.05);
         border-radius: 2px;
