@@ -15,7 +15,7 @@ export const Container = styled.div`
   justify-content: space-between;
   border-radius: 10px;
   background: ${props =>
-    props.bgImage ? `url('${props.bgImage}') center no-repeat` : 'red'};
+    props.bgImage ? `url('${props.bgImage}') center no-repeat` : '#fff'};
   background-size: cover;
   padding: 8px;
 

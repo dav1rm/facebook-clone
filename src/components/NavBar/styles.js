@@ -47,6 +47,7 @@ export const Container = styled.header`
   height: 42px;
   position: fixed;
   top: 0;
+  z-index: 1;
   padding: 0 12%;
   background-color: #4267b2;
   border-bottom: 2px solid #3b5998;
